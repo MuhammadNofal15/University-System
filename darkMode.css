@@ -1,0 +1,141 @@
+/* darkMode.css */
+
+/* Background color for the entire root container (Scene) */
+.root {
+    -fx-background-color: #121212; /* Dark background for the entire scene */
+    -fx-text-fill: white; /* Light text color by default */
+}
+
+/* Style for buttons */
+.button {
+    -fx-background-color: #333333; /* Dark button background */
+    -fx-text-fill: white; /* White text */
+    -fx-border-radius: 5px;
+    -fx-padding: 5px 10px;
+}
+
+/* Style for text fields */
+.text-field {
+    -fx-background-color: #333333; /* Dark text field background */
+    -fx-text-fill: white; /* White text */
+    -fx-border-color: #444444; /* Darker border */
+    -fx-border-radius: 5px;
+}
+
+/* Style for labels */
+.label {
+    -fx-text-fill: white; /* White text color */
+}
+
+/* Style for tables */
+.table-view {
+    -fx-background-color: #1e1e1e; /* Dark background for the table itself */
+    -fx-text-fill: white; /* White text */
+    -fx-border-color: #444444; /* Dark border */
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+}
+
+/* Background of the table columns */
+.table-column {
+    -fx-background-color: #262626; /* Dark background for table columns */
+    -fx-text-fill: white;
+}
+
+/* Table row highlighting when selected */
+.table-view .row-cell:selected {
+    -fx-background-color: #444444; /* Darker gray when row is selected */
+    -fx-text-fill: white;
+}
+
+/* Style for table headers */
+.table-view .column-header {
+    -fx-background-color: #333333; /* Dark background for headers */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Style for the table cells */
+.table-cell {
+    -fx-background-color: #1e1e1e; /* Dark background for cells */
+    -fx-text-fill: white; /* White text */
+    -fx-border-color: #444444; /* Dark border around cells */
+    -fx-padding: 5px;
+}
+
+.table-cell:focused {
+    -fx-background-color: #555555; /* Slightly lighter for focused cell */
+}
+
+/* Style for checkboxes */
+.check-box {
+    -fx-text-fill: white; /* White text for checkboxes */
+}
+
+.check-box:selected {
+    -fx-background-color: #444444; /* Dark background for selected checkbox */
+}
+
+/* Style for DatePicker */
+.date-picker {
+    -fx-background-color: #333333; /* Dark background */
+    -fx-text-fill: white; /* White text */
+    -fx-prompt-text-fill: #888888; /* Light text for placeholder */
+    -fx-border-color: #444444; /* Dark border */
+    -fx-border-radius: 5px;
+}
+
+/* Style for ComboBox */
+.combo-box {
+    -fx-background-color: #333333; /* Dark background */
+    -fx-text-fill: white; /* White text */
+    -fx-border-color: #444444; /* Dark border */
+    -fx-border-radius: 5px;
+}
+
+/* ComboBox drop-down list styling */
+.combo-box .list-cell {
+    -fx-background-color: #444444; /* Dark background for dropdown items */
+    -fx-text-fill: white; /* White text */
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #555555; /* Hover effect for items */
+}
+
+/* TabPane background */
+.tab-pane {
+    -fx-background-color: #121212; /* Dark background for the entire TabPane */
+}
+
+/* Individual Tab background (when not selected) */
+.tab {
+    -fx-background-color: #333333; /* Dark background for each tab */
+    -fx-text-fill: white; /* White text */
+}
+
+/* Style for selected Tab */
+.tab:selected {
+    -fx-background-color: #444444; /* Darker background for selected tab */
+}
+
+/* Style for unselected Tabs */
+.tab:not(.selected) {
+    -fx-background-color: #333333; /* Same as above, consistent dark background */
+}
+
+/* Tab header text */
+.tab .tab-label {
+    -fx-text-fill: white; /* White text color for tab headers */
+}
+
+
+
+
+/* Style for ScrollPane (if any) */
+.scroll-pane {
+    -fx-background-color: #1e1e1e; /* Dark background for the entire scroll pane */
+}
+
+
+

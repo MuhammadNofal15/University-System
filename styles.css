@@ -1,0 +1,173 @@
+/* General Styles */
+.root {
+    -fx-background-color: #f4f4f9;
+    -fx-font-family: 'Arial', sans-serif;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: linear-gradient(to right, #4b6f9e, #7a9fbf); /* Light navy blue gradient */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 8, 0.8, 2, 2);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to right, #7a9fbf, #4b6f9e); /* Reverse gradient */
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-background-color: #3b5a76; /* A darker shade of navy blue for pressed state */
+}
+
+/* Text Fields */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #4b6f9e; /* Light navy blue border */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5 10;
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0.8, 2, 2);
+}
+
+.text-field:focused {
+    -fx-border-color: #7a9fbf; /* Lighter navy blue when focused */
+}
+
+/* Labels */
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333;
+}
+
+/* Tables */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #4b6f9e; /* Light navy blue border */
+    -fx-border-width: 2px;
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 10, 0.5, 2, 2);
+    -fx-column-header-background-color: #4b6f9e; /* Light navy blue header */
+    -fx-column-header-text-fill: white;
+}
+
+/* Table Row and Columns */
+.table-column {
+    -fx-alignment: center-left;
+    -fx-pref-width: 150px; /* Widen columns */
+}
+
+.table-row-cell {
+    -fx-background-color: #f9f9f9;
+    -fx-padding: 10px;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #7a9fbf; /* Lighter navy blue selection */
+    -fx-text-fill: white;
+}
+
+.table-column-header {
+    -fx-background-color: #4b6f9e; /* Light navy blue header background */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-border-color: #4b6f9e; /* Light navy blue border */
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5 10;
+}
+
+.combo-box:hover {
+    -fx-border-color: #7a9fbf; /* Lighter navy blue on hover */
+}
+
+.combo-box:focused {
+    -fx-border-color: #3b5a76; /* Darker navy blue when focused */
+}
+
+/* Checkboxes and Radio Buttons */
+.checkbox, .radio-button {
+    -fx-font-size: 14px;
+    -fx-text-fill: #4b6f9e; /* Light navy blue text */
+}
+
+.checkbox:selected, .radio-button:selected {
+    -fx-text-fill: #7a9fbf; /* Lighter navy blue when selected */
+}
+
+/* ScrollPane */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+/* Pane Padding */
+.vbox, .hbox {
+    -fx-spacing: 10;
+    -fx-padding: 10;
+}
+
+/* Tooltips */
+.tooltip {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-padding: 5;
+}
+
+/* Tabs */
+.tab-pane {
+    -fx-background-color: transparent;
+}
+
+.tab {
+    -fx-background-color: #4b6f9e; /* Light navy blue tab background */
+    -fx-text-fill: white;  /* Text color set to white */
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px 5px 0 0;
+    -fx-background-radius: 5px 5px 0 0;
+}
+
+.tab:hover {
+    -fx-background-color: #7a9fbf; /* Lighter navy blue hover effect */
+    -fx-cursor: hand;
+}
+
+.tab:selected {
+    -fx-background-color: #3b5a76; /* Darker navy blue when selected */
+    -fx-text-fill: white;  /* White text for selected tab */
+}
+
+.tab-pane .content {
+    -fx-background-color: #ffffff;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+}
+
+/* Tab Header */
+.tab-pane .tab-header-area {
+    -fx-background-color: #4b6f9e; /* Light navy blue tab header */
+    -fx-padding: 5px;
+    -fx-border-radius: 5px 5px 0 0;
+}
+
+.tab-header .tab {
+    -fx-background-color: #4b6f9e;
+    -fx-text-fill: white;
+}
+
+.tab-header .tab:selected {
+    -fx-background-color: #3b5a76;
+    -fx-text-fill: white;
+}
